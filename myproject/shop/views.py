@@ -1,11 +1,9 @@
-
 from rest_framework import viewsets, permissions, status, generics
 from .serializers import *
 from .models import *
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from django_filters.rest_framework import DjangoFilterBackend
-
 from rest_framework.response import Response
 
 

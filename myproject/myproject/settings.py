@@ -132,8 +132,6 @@ MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 MODELTRANSLATION_LANGUAGES = ('en', 'ru',)
 
 
-
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
@@ -164,8 +162,4 @@ SIMPLE_JWT = {
 
 
 AUTH_USER_MODEL = 'shop.UserProfile'
-
-
-
-
 

@@ -8,6 +8,4 @@ class ProductFilter(FilterSet):
         fields = {
             'category': ['exact'],
             'price': ['gt', 'lt'],
-
-
-        }
+    }
